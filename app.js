@@ -3,7 +3,7 @@ const app = express();
 
 const port = process.env.PORT || 1000;
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Server is live on ${port}`);
 });
 
